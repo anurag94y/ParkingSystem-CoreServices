@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
  */
 @Builder
 @Data
-public class ParkingSlotResponse {
+public class TicketResponse {
     private HttpStatus status;
     private String message;
 }

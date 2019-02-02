@@ -11,7 +11,7 @@ import lombok.Data;
  */
 @Data
 @Builder
-public class ParkingSlotRequest {
+public class TicketRequest {
     private String vehicleNumber;
     private Long buildingId;
     private Long companyId;
